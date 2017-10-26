@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity implements MyFragment.OnFrag
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+    
     @Override
     public void onFragmentInteraction() {
         Toast.makeText(getApplicationContext(), "ボタンが押されました", Toast.LENGTH_SHORT).show();
